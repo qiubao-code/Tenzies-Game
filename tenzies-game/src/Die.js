@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function Die(props){
-    const styles= {
-        backgroundColor:props.isheld?"#59E391":"wheat"
+export default function Die(props) {
+    const styles = {
+        backgroundColor: props.isheld ? "#59E391" : "wheat"
     }
 
     return (
-        <div 
-            className="die-face" 
+        <div
+            className="die-face"
             style={styles}
             onClick={props.holdDice}
         >
